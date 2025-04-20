@@ -27,140 +27,210 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/mainquickly.css" rel="stylesheet">
 
 </head>
 
 <body class="service-details-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
+
+
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/logo.png" alt="">
-        <h1 class="sitename">J&A Innovation Partner Inc</h1>
+        <h1 class="sitename">Innovation Partner Inc</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services" class="active">Services</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="index.html#lifestyle-category">Home</a></li>
+          <li><a href="index.html#featured-posts">Insights</a></li>
+          <li><a href="index.html#about" class="active">Our Team</a></li>
           <li class="dropdown">
-            <a href="#"><span>Legal</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#corporate">Corporate</a></li>
-              <li><a href="#litigation">Litigation</a></li>
-              <li><a href="#compliance">Compliance</a></li>
-              <li><a href="#family">Family Law</a></li>
+            <a href="#category-section"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="services.html">Legal Consultation</a></li>
+              <li><a class="dropdown-item" href="services.html">Business Structuring</a></li>
+              <li><a class="dropdown-item" href="services.html">Labor Law Advisory</a></li>
+              <li><a class="dropdown-item" href="services.html">Litigation Support</a></li>
+              <li><a class="dropdown-item" href="services.html">Contract Drafting & Review</a></li>
+              <li><a class="dropdown-item" href="services.html">Intellectual Property Protection</a></li>
             </ul>
+            <li><a href="index.html#faq">FAQs</a></li>
           </li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="index.html#contact">Consult</a>
 
     </div>
   </header>
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Service Details</h1>
-              <p class="mb-0">Discover comprehensive legal solutions tailored to your needs. At J&A Innovation Partners
-                Inc., we provide expert legal consultation, litigation support, and corporate advisory services. Our
-                team is dedicated to delivering clear, practical legal advice to protect your interests.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
-          </ol>
-        </div>
-      </nav>
-    </div><!-- End Page Title -->
+<!-- Page Title -->
+<div class="page-title">
+  <div class="breadcrumbs">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
+        <li class="breadcrumb-item active current">Team</li>
+      </ol>
+    </nav>
+  </div>
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+  <div class="title-wrapper">
+    <h1>Meet the J&A Team</h1>
+    <p>Get to know the dedicated professionals behind J&A — committed to delivering expert business solutions, legal insights, and strategic guidance for your success.</p>
+  </div>
+</div><!-- End Page Title -->
 
-      <div class="container">
 
-        <div class="row gy-5">
+<!-- Features Section -->
+<section id="features" class="features section">
+  <div class="container">
+    <div class="row justify-content-between">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-5 d-flex align-items-center">
 
-            <div class="service-box">
-              <h4>Services List</h4>
-              <div class="services-list">
-                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Legal Consultation</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Litigation Support</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Corporate Law</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Family Law</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Intellectual Property</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Employment Law</span></a>
+        <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <i class="bi bi-binoculars"></i>
+              <div>
+                <h4 class="d-none d-lg-block">Our Mission</h4>
+                <p>
+                  At J&A, our mission is to empower businesses and individuals through exceptional legal and strategic services. We strive to make complex decisions simpler and success more attainable.
+                </p>
               </div>
-            </div><!-- End Services List -->
-
-            <div class="service-box">
-              <h4>Download Legal Resources</h4>
-              <div class="download-catalog">
-                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Legal Insights PDF</span></a>
-                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Consulting Guide DOC</span></a>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <i class="bi bi-box-seam"></i>
+              <div>
+                <h4 class="d-none d-lg-block">What We Do</h4>
+                <p>
+                  Our team provides tailored services in business consulting, legal advisory, and corporate compliance. We are results-driven, combining experience with innovation to meet your goals.
+                </p>
               </div>
-            </div><!-- End Download Legal Resources -->
-
-
-            <div class="help-box d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-headset help-icon"></i>
-              <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+63 999 157
-                  1052</span></p>
-              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
-                  href="mailto:contact@jainnovationpartners.com">contact@jainnovationpartners.com</a></p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Expert Legal Solutions Tailored to Your Needs</h3>
-            <p>
-              At J&A Innovation Partners Inc., we provide comprehensive legal services with a client-centric approach.
-              From corporate advisory to personal legal matters, we are committed to delivering solutions that protect
-              your rights and interests.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Experienced legal consultants providing reliable
-                  advice.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Expert representation in litigation and dispute
-                  resolution.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Comprehensive support for corporate and family legal
-                  needs.</span></li>
-            </ul>
-            <p>
-              Our dedicated team is ready to assist you with legal consultation, litigation support, corporate
-              compliance, and more. Contact us today to explore how we can provide you with the legal representation you
-              deserve.
-            </p>
-          </div>
-
-        </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <i class="bi bi-brightness-high"></i>
+              <div>
+                <h4 class="d-none d-lg-block">Our Vision</h4>
+                <p>
+                  We envision a world where businesses thrive through clarity, confidence, and trusted partnerships. J&A is here to lead that journey with you, every step of the way.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul><!-- End Tab Nav -->
 
       </div>
 
-    </section><!-- /Service Details Section -->
+      <div class="col-lg-6">
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><!-- /Features Section -->
+
+<!-- Features Details Section -->
+<section id="features-details" class="features-details section">
+
+  <div class="container">
+
+    <!-- Ana Marie -->
+    <div class="row gy-4 justify-content-between features-item">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="content">
+          <h3>Ana Marie</h3>
+          <p>
+            Ana Marie is the heart of our operations at J&A. With a sharp eye for detail and a commitment to excellence,
+            she ensures that all client engagements run smoothly and efficiently. Her years of experience in administration
+            and coordination make her an indispensable asset to the team.
+          </p>
+          <a href="anamarie-profile.html" class="btn more-btn">Learn More</a>
+        </div>
+      </div>
+
+    </div><!-- Features Item -->
+
+    <!-- Jaime Gajelomo -->
+    <div class="row gy-4 justify-content-between features-item">
+
+      <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="content">
+          <h3>Jaime Gajelomo</h3>
+          <p>
+            Jaime brings strategic foresight and deep industry knowledge to the J&A team. Known for his
+            analytical mindset and leadership in business development, he is driven by results and dedicated to helping clients
+            grow and succeed in a competitive market.
+          </p>
+          <ul>
+            <li><i class="bi bi-easel flex-shrink-0"></i> Business strategy and analysis expert</li>
+            <li><i class="bi bi-patch-check flex-shrink-0"></i> Passionate about sustainable growth</li>
+            <li><i class="bi bi-brightness-high flex-shrink-0"></i> Leads with integrity and vision</li>
+          </ul>
+          <a href="jaime-profile.html" class="btn more-btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+      </div>
+
+    </div><!-- Features Item -->
+
+    <!-- Hani Mercado -->
+    <div class="row gy-4 justify-content-between features-item">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="content">
+          <h3>Hani Mercado</h3>
+          <p>
+            Hani is our legal powerhouse at J&A. Her deep understanding of corporate law and her client-first approach make her
+            an invaluable legal advisor. She is dedicated to protecting our clients' interests and guiding them through complex
+            legal landscapes with clarity and confidence.
+          </p>
+          <a href="hani-profile.html" class="btn more-btn">Learn More</a>
+        </div>
+      </div>
+
+    </div><!-- Features Item -->
+
+  </div>
+
+</section><!-- /Features Details Section -->
 
 
   </main>
@@ -190,22 +260,22 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Legal Services</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Our Legal Services</h4>
           <ul>
             <li><a href="#">Legal Consultation</a></li>
+            <li><a href="#">Business Structuring</a></li>
+            <li><a href="#">Contract Drafting & Review</a></li>
             <li><a href="#">Litigation Support</a></li>
-            <li><a href="#">Corporate Law</a></li>
-            <li><a href="#">Family Law</a></li>
-            <li><a href="#">Intellectual Property</a></li>
-            <li><a href="#">Employment Law</a></li>
+            <li><a href="#">Intellectual Property Protection</a></li>
+            <li><a href="#">Labor Law Advisory</a></li>
           </ul>
         </div>
 
@@ -213,8 +283,8 @@
           <h4>Stay Updated</h4>
           <p>Subscribe to receive insights on legal updates and industry news from J&A Innovation Partners Inc.</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email" placeholder="Your Email"><input type="submit"
-                value="Subscribe"></div>
+            <div class="newsletter-form"><input type="email" name="email" placeholder="Your Email"><input
+                type="submit" value="Subscribe"></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -233,6 +303,7 @@
     </div>
 
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
